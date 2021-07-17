@@ -5,9 +5,15 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Personal Portfolio Website</title>
     <link rel='stylesheet' href='style.css'>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 </head>
 <body>
     <nav class="navbar">
@@ -31,7 +37,7 @@
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Tanishka Vaswani</div>
-                <div class="text-3">and I'm an <span>App developer</span></div>
+                <div class="text-3">and I'm an <span class="typing"></span></div>
                 <!-- <a href="#">Hire me</a> -->
             </div>
 
@@ -47,11 +53,9 @@
                     <img src="images/mypic.jpeg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Tanishka and I'm an <span>App developer</span></div>
-                    <p>Devops enthusiast</p>
-                    <p>Use flutter for app developemnt</p>
-                    <p>First position in Tula's hackathon</p>
-                    <p>First position in start-up bootcamp held at Inde campus</p>
+                    <div class="text">I'm Tanishka and I'm an <span class="typing">App developer</span></div>
+                    <p>I am an enthusiastic and hardworking student who aims to utilize the most out of the opportunities that I come accross. I aim to utilize my knowledge and experience in all the projects and tasks that I undertake. I have the experience of being a Campus Ambassador for Xebia. I have also participated in various hackathons.</p>
+                    
 
                     <a href="https://drive.google.com/file/d/1RX4RFI0nijydE5tbubv8R5EWly5n5JIZ/view?usp=sharing">Download CV</a>
                 </div>
@@ -97,7 +101,7 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <p>Apart from my technical skills, my soft skills include Time management, Teamwork and research skills. Since I was a part of four student chapters in my first year of college, I successfully handled all of them along with my academics. Also, I have been a part of various hackathons as well as organized various competitions where I have worked in teams. <br><br>I have participated in various coding competitions all around the year that have helped me improve my technical skills and coding background. I have 5 starts in Java on hackerrank.</p>
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
@@ -150,27 +154,33 @@
                     <div class="contact-content">
                         <div class="column left">
                             <div class="text">Get in Touch</div>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                            <!-- <a href="#" class="fa fa-facebook"></a> -->
+                            <a href="https://www.linkedin.com/in/tanishka-vaswani-8b2b40184/" class="fa fa-linkedin"></a>
+                            <a href="https://twitter.com/TanishkaVaswani" class="fa fa-twitter"></a>
+                            <a href="https://www.youtube.com/channel/UCSwmoUcj4ZFKIRgbvqYoYyQ" class="fa fa-youtube"></a>
+                            <a href="https://www.instagram.com/_taanniisshhkaaa_/" class="fa fa-instagram"></a>
+
+                            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p> -->
                             <div class="icons">
                                 <div class="row">
                                     <!-- <i class="fas fa-user"></i> -->
                                     <div class="info">
                                         <div class="head">Name</div>
-                                        <div class="sub-title">Prakash Shahi</div>
+                                        <div class="sub-title">Tanishka Vaswani</div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <!-- <i class="fas fa-map-marker-alt"></i> -->
                                     <div class="info">
                                         <div class="head">Address</div>
-                                        <div class="sub-title">Surkhet, Nepal</div>
+                                        <div class="sub-title">New Delhi, India</div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <!-- <i class="fas fa-envelope"></i> -->
                                     <div class="info">
                                         <div class="head">Email</div>
-                                        <div class="sub-title">abc@gmail.com</div>
+                                        <div class="sub-title">tanishkavaswani1@gmail.com</div>
                                     </div>
                                 </div>
                             </div>
